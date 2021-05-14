@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:natur_beobachter_app/screens/main_screen.dart';
+import 'package:natur_beobachter_app/screens/beobachtungs_screen.dart';
 
 void main() {
   runApp(MyApp());
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: MainScreen(),
+      home: BeobachtungsScreen(),
     );
   }
 }
